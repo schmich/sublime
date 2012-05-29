@@ -12,5 +12,8 @@
     "shift_tab_unindent": true,
     "tab_size": 2,
     "draw_indent_guides": false,
-    "caret_style": "solid"
+    "caret_style": "solid",
+    "highlight_line": true,
+    "margin": 0,
+    "highlight_modified_tabs": true
 }

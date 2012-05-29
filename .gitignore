@@ -1,0 +1,8 @@
+*.cache
+*.tmCache
+*.pyc
+*.swp
+*.swo
+*.sublime_session
+*.sublime-workspace
+*.lnk
