@@ -15,5 +15,6 @@
     "caret_style": "solid",
     "highlight_line": true,
     "margin": 0,
-    "highlight_modified_tabs": true
+    "highlight_modified_tabs": true,
+    "word_wrap": false
 }
