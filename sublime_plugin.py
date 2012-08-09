@@ -128,7 +128,7 @@ def show_timeout(plugin_name, elapsed, callback):
     key = plugin_name + callback
     msg = ("A plugin (%s) may be making Sublime Text unresponsive by taking too " +
         "long (%fs) in its %s callback.\n\nThis message can be disabled via the " +
-        "detect_slow_plugins global setting") % (plugin_name, elapsed, callback)
+        "detect_slow_plugins setting") % (plugin_name, elapsed, callback)
 
     # Give plugins one chance to respond slowly, to handle any initialisation issues etc.
     # This allowance may be removed in the future due to startup time concerns
@@ -285,6 +285,18 @@ class Command(object):
 
     def is_visible(self):
         return True
+
+    def is_checked_(self, args):
+        try:
+            if args:
+                return self.is_checked(**args)
+            else:
+                return self.is_checked()
+        except TypeError:
+            return self.is_checked()
+
+    def is_checked(self):
+        return False
 
     def description_(self, args):
         try:
