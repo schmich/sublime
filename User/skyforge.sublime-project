@@ -1,0 +1,10 @@
+{
+    "folders":
+    [
+        {
+            "path": "/C/dev/skyforge",
+            "folder_exclude_patterns": [".bundle", "doc", "public", "script", "tmp", "vendor", "log"],
+            "file_exclude_patterns": ["*.sqlite*", "*.swp"]
+        }
+    ]
+}
