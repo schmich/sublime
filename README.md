@@ -3,6 +3,10 @@ Sublime
 
 Portable version of Sublime with my personal settings.
 
+Setup:
+- `git clone git@github.com:schmich/sublime.git`
+- Copy shortcuts in `sublime\User\Projects` as necessary.
+
 Changes made to base Sublime:
 - Added the `\User` folder.
 - Updated the empty preference files in `\Data\Packages\User`.
