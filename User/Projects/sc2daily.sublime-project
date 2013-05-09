@@ -2,7 +2,7 @@
     "folders":
     [
         {
-            "path": "/C/dev/Pylo",
+            "path": "/C/dev/sc2daily",
             "folder_exclude_patterns": [".bundle", "doc", "public", "script", "test", "tmp", "vendor", "log"],
             "file_exclude_patterns": ["*.sqlite*"]
         }
